@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1,h3,h2,h4,h5,h6{
+    text-transform: capitalize;
+}
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-size: 23px !important;
+    color: rgb(9, 147, 58) !important;
+}
+.bg-blue{
+    background-color: rgb(3, 3, 56);
+}
+header{
+    position:sticky;
+    top: 0px !important;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+}
+/* top head section start */
+.navbar-brand img{
+margin-left: 80px !important;
+}
+.navbar-nav li a{
+    padding: 0px 20px !important;
+    text-transform: capitalize;
+    color: rgb(252, 255, 253) !important;
+}
+/* top head section end */
+/* hero section start */
+.hero{
+    background-image: linear-gradient(40deg, rgba(35, 109, 119, 0.4)100%, transparent 100%) ,url(../img/iceland.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+    /* align-items: center; */
+    position: relative;
+}
+
+.hero h3{
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 80px;
+}
+.hero h2 strong{
+    font-size: 34px;
+    font-weight: 600;
+}
+/* hero section end */
+/* booking section start */
+.booking_info{
+  color: white;
+   background-color: rgb(1, 87, 162); 
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -100px;
+}
+@media  screen and (max-width:727px){
+   .booking_info{
+    bottom: -280px;
+   } 
+}
+.booking_info a{
+    background-color: teal;
+    padding: 6px;
+    display: inline-block;
+    margin:10px 0;
+}
+.form-section input,option,select{
+    width: 90%;
+    text-align: center;
+    padding: 4px 0px;
+    text-transform: capitalize;
+    margin: 5px auto;
+}
+.trip_section select {
+width: 50%;
+text-transform: capitalize;
+}
+
+.trip_section{
+    text-transform: capitalize;
+}
+.trip_section .radio{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+/* booking section end */
+/* fun section start */
+.fun{
+    background-image: linear-gradient(40deg, rgba(0, 0, 0, 0.8)100%, transparent 100%) ,url(../img/travelling.avif); 
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px 0px;
+}
+@media screen and (max-width:727px) {
+    .fun{
+        margin-top: 120px;
+    }
+    
+}
+.fun .circle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(40deg, rgba(0, 0, 10, 0.7)100%, transparent 100%);
+    display: flex;
+    justify-content: center;align-items: center;
+    margin-top: 20px;
+   
+}
+
+/* fun section end */
+/* news letter section */
+.newsletter{
+    background-image: linear-gradient(40deg, rgba(0, 0, 0, 0.8)100%, transparent 100%) ,url(../img/aeroplane2.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.newsletter .inputsub{
+    width: 70%;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.newsletter .subbtn{
+width: 20%;
+padding: 20px 0px;
+color: white;
+background: blue;
+font-size: 20px;
+text-transform: capitalize;
+}
+/* news letter section */
+/* popular section start */
+.popular{
+    background-color: blue;
+}
+section{
+    margin: 0px;
+}
+/* popular section end */
+/* blog section start */
+.blog .content{
+display: flex;
+
+}
+/* blog section end */
