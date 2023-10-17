@@ -164,4 +164,13 @@ section{
 display: flex;
 
 }
+@media screen and (max-width:727px) {
+    .blog .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog .content img{
+        width: 100%;
+    }
+}
 /* blog section end */
